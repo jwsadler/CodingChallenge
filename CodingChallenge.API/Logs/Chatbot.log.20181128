@@ -1,0 +1,1810 @@
+2018-11-28 11:04:48,019 [11] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 11:04:48,019 [11] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 11:04:48,019 [11] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "EmailAddress",
+    "Value": "test@test.com"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "James"
+  },
+  {
+    "Key": "LastName",
+    "Value": "Test"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 11:15:09,830 [53] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 11:15:09,850 [53] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 11:15:09,937 [53] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "EmailAddress",
+    "Value": "test@test.com"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "James"
+  },
+  {
+    "Key": "LastName",
+    "Value": "Test"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 11:15:10,320 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 11:15:10,320 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test@test.com
+2018-11-28 11:15:10,320 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: James
+2018-11-28 11:15:10,320 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: Test
+2018-11-28 11:15:10,320 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 11:15:10,320 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 11:15:10,320 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 11:15:10,320 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 11:15:10,320 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 11:15:10,320 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 11:15:10,320 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 11:15:10,320 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 11:15:10,321 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 11:15:10,321 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 11:15:10,328 [45] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"MHlfaLLPMEPBzrIQMApytCC8rpwfIxaBSEx7Dd+0iPRuW4YHOLJiXYJINOnVqopiuzgdMyfykVuo07lJW5OCfLcc8K23ZKXUzjMtxkOIB8k=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 14:16:16,408 [11] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 14:16:16,425 [11] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 14:16:16,511 [11] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "EmailAddress",
+    "Value": "test_caudle_112818a@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 14:16:18,375 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 14:16:18,375 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_caudle_112818a@gmail.com
+2018-11-28 14:16:18,375 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 14:16:18,375 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 14:16:18,375 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 14:16:18,375 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 14:16:18,375 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 14:16:18,375 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 14:16:18,375 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 14:16:18,375 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 14:16:18,375 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 14:16:18,375 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 14:16:18,375 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 14:16:18,378 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 14:16:18,379 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 14:16:18,390 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"xMIIFneDvpY69dE+FU22nlE17AXzDbJ2nh2LDkQV+U5oVAMa0BHHpAEQLxqd500CA3vrMCiZ5uaktdz3UIbPAXSQ1ThniC3+i8Nm2L1EU0I=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 14:17:21,175 [16] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 14:17:21,175 [16] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 14:17:21,175 [16] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "EmailAddress",
+    "Value": "test_caudle_54859845@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_caudle_54859845@gmail.com
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 14:17:21,498 [7] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"vMYfO+dKaLoloefRejIDV8WbIW2xlG1qU2h+f1dD6zY4rySVMFw4zlvsVisaRi8RX6UB1axv0Vfvr1y+KBsQx/EDC7zXL/dEaNhpNgL5u5I=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 14:22:50,717 [13] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 14:22:50,717 [13] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 14:22:50,717 [13] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "EmailAddress",
+    "Value": "test_caudle_54859845@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 14:29:32,462 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 14:29:32,462 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_caudle_54859845@gmail.com
+2018-11-28 14:29:32,462 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 14:29:32,462 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 14:29:32,462 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 14:29:32,462 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 14:29:32,462 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 14:29:32,462 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 14:29:32,462 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 14:29:32,462 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 14:29:32,462 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 14:29:32,462 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 14:29:32,462 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 14:29:34,956 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 14:29:35,498 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 14:29:36,967 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"roIzDvGHBGQvrJr6Tlh9ZPmobXjx4hQK9EdPDDGDPe6HQ7a5iOeaHHQ3BHccHyzbgy8b8uwzySYdxQr56a5BIg9g9euPKUPR5pAxodTU8EA=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 14:37:39,496 [16] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 14:37:39,518 [16] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 14:37:39,616 [16] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "ContentType",
+    "Value": "text/plain;charset=UTF-8"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_caudle_54859845@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - ContentType: text/plain;charset=UTF-8
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_caudle_54859845@gmail.com
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 14:37:39,988 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 14:37:39,989 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 14:37:39,989 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 14:37:39,997 [46] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"lZb1mocfQahzQObWuOyxd6EMlfsj834ooqxktrC5yUNtzkc3DiIuka3+H44f6o239cwHS3tw04R/W3jPQYas/tpF1iFcA0grA272yemNtwU=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 14:43:53,990 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 14:43:54,010 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 14:43:54,093 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "EmailAddress",
+    "Value": "test_caudle_54859845@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 14:43:54,452 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 14:43:54,453 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_caudle_54859845@gmail.com
+2018-11-28 14:43:54,453 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 14:43:54,453 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 14:43:54,453 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 14:43:54,453 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 14:43:54,453 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 14:43:54,453 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 14:43:54,453 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 14:43:54,453 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 14:43:54,453 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 14:43:54,453 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 14:43:54,453 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 14:43:54,454 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 14:43:54,454 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 14:43:54,463 [35] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"1UNhRq93lCYNF2XQ29kc6hXW5KRKTkQ5CkCD53NnytCmB96osI36+5Ga5VB8nHYmDtaobJ3aZg9Vgp2zrfM1lScfNoHNPlpIKjsC87RCrqA=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 15:44:01,658 [10] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 15:44:01,676 [10] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 15:44:01,762 [10] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "18027"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_caudle_54859845@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: 18027
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_caudle_54859845@gmail.com
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 15:44:03,371 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 15:44:03,374 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 15:44:03,374 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 15:44:03,400 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"7MIofTNzBEtSOigNMZUIAqiThaebIPa7cRIpa8Inc9GcVwFypfGEBpwAPGJ829KxrltEInB3hi6f2XHMfjcrIa9LBXzGid8daOvFGFS78Ls=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 15:44:43,162 [9] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 15:44:43,162 [9] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 15:44:43,162 [9] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "18027"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_caudle_54859845@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: 18027
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_caudle_54859845@gmail.com
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 15:44:43,446 [15] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"4DH+9qR2PBtLvTtwerR780pNlXUQAwHqjWuxBsH99TK7/rbXybuOURWkixFqv7cWbqvXKiYvR2YOlBsJaRGS+HwhnfaayT5Ba0Ch/1a//3M=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 15:48:39,230 [13] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 15:48:39,230 [13] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 15:48:39,230 [13] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "18027"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_caudle_54859845@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: 18027
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_caudle_54859845@gmail.com
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 15:48:39,583 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"GqeEJc7f8C7ifTVKH07x3rZhRZHlau/Ts4yCzdwlVe8njQyIQrrrTRDz/Uj/iQ7jOmmqO+gFtzbki7071wyGykjHH3aMBZ73cKFSIM4ZnFY=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 15:49:09,680 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 15:49:09,680 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 15:49:09,680 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "18027"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_caudle_54859845@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: 18027
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_caudle_54859845@gmail.com
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 15:53:10,453 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 15:53:11,952 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 15:53:11,952 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 15:53:11,952 [34] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"nSJVq+Qd0IvIp5kLFSTDPcQg/W317WC0V5Y3aX8IOOBnI4wUAKIlndgw12Y38nHMGn80wYt3AChxA2JR/YMW4vrnOIBZE/6vrNc1lIEJ69s=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 15:55:01,829 [33] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 15:55:01,829 [33] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 15:55:01,829 [33] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "18027"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_caudle_54859845@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: 18027
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_caudle_54859845@gmail.com
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 15:55:02,179 [38] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"kOVl5OelK1+rYG4AtLpohCqXEifSn3IWwoHZcrXKtWpj8ZO8tUgtEs+gIrv/w2UkrRu2u/uYY9yRuzw48nCTGa2EzqIbZW2tSRa+tagNruw=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 15:55:29,042 [12] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 15:56:51,370 [12] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 15:56:51,370 [12] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "18027"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_caudle_54859845@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: 18027
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_caudle_54859845@gmail.com
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 15:56:52,932 [44] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"7HHJUQDMYAyeBboi6DNFVvA5XdTNpSoEAHDr4iF/R6pE0j6q7RzhOw0T8uc9kyojhaXZ+pnx1EjsFu7yWOkaesDv/LTCsgZsExSX6wvYGRA=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 16:32:05,707 [9] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 16:32:05,727 [9] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 16:32:05,815 [9] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "18027"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_caudle_54859845@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 16:32:06,534 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 16:32:06,534 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: 18027
+2018-11-28 16:32:06,534 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_caudle_54859845@gmail.com
+2018-11-28 16:32:06,534 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 16:32:06,534 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 16:32:06,534 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 16:32:06,534 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 16:32:06,534 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 16:32:06,534 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 16:32:06,534 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 16:32:06,535 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 16:32:06,535 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 16:32:06,535 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 16:32:06,535 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 16:32:06,537 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 16:32:06,537 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 16:32:06,560 [8] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"Idrr6YlCRRFPPI1r7BwZEvtxOJJWOrrg5yCdCCi2oHhL0pXaIdzsZZPBxuTNjzeBOf2p7M+Dfmc8dVhKFQn4FpUtdrvNnReoceRmvA4Orkc=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 16:36:21,168 [12] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 16:36:21,168 [12] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 16:36:21,168 [12] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "18027"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_james_1123445@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: 18027
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_james_1123445@gmail.com
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 16:36:21,576 [23] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"7litpiN6t9Uqlm4TltWGo/pvcG3DCtLvg9bZnrL2XMOrrwQmYKtVv03xCJQK3OkLo2V46yLBThzvYxp1tnnQQ7rhrAlTDMoSBEhcpdtmCJw=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 16:41:49,989 [10] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 16:41:49,989 [10] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 16:41:49,989 [10] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "18027"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_james_1123445@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 16:41:50,419 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 16:41:50,419 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: 18027
+2018-11-28 16:41:50,419 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_james_1123445@gmail.com
+2018-11-28 16:41:50,419 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 16:41:50,419 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 16:41:50,419 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 16:41:50,419 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 16:41:50,419 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 16:41:50,419 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 16:41:50,419 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 16:41:50,419 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 16:41:50,419 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 16:41:50,420 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 16:41:50,420 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 16:41:50,420 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 16:41:50,420 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 16:41:50,420 [39] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"H/+Jtbz77i/ORBDdkkBv5+pje4wHWWcPd/yTOvF3Abbzo8MupxtxUWZva28g/DTdAIqh48hWsnSd+S2FUh7Sf3/J9T8HIFVkr7bOjKZJjFA=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 17:02:00,586 [50] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 17:02:00,604 [50] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 17:02:00,684 [50] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "18027"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_james_1123445@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "HasOptedOutOfEmail",
+    "Value": "False"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "ExpressedConsent",
+    "Value": "True"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: 18027
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_james_1123445@gmail.com
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - HasOptedOutOfEmail: False
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - ExpressedConsent: True
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 17:02:01,180 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 17:02:01,182 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 17:02:01,182 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 17:02:01,189 [32] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"9+24mmJGn+oKe6SUQYtrrPopEAheJJrCmijm4heVmlAapeXgfGlz6gHgivooMU5B1KzowFZ3aPu60FyzFK6mWjHP97IBT6bmBytxF9GQTr8=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 17:04:34,397 [50] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 17:04:34,397 [50] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 17:04:34,397 [50] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "18027"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_james_1123445@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "HasOptedOutOfEmail",
+    "Value": "False"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "ExpressedConsent",
+    "Value": "True"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "Chatbot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: 18027
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_james_1123445@gmail.com
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - HasOptedOutOfEmail: False
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - ExpressedConsent: True
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: Chatbot
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 17:04:34,837 [42] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"W6sDJCmWwRTXyg4T7OKyq4ckyyHhIOFswma51c+GHJQ9ifLhpsvghmStax9CpSt5TN9W/X3KGEE+2j7VQSZlEdYpIMUnn49TZ93AbFEx1Cg=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 17:07:22,300 [59] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 17:07:22,318 [59] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 17:07:22,402 [59] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "18027"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_james_1123445@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "HasOptedOutOfEmail",
+    "Value": "False"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "ExpressedConsent",
+    "Value": "True"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "ChatBot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: 18027
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_james_1123445@gmail.com
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - HasOptedOutOfEmail: False
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - ExpressedConsent: True
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: ChatBot
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 17:07:22,879 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 17:07:22,880 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 17:07:22,880 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 17:07:22,888 [70] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"dH03HuU2ClN20VukXhsZyRY8r+DF79aYP0CYSR9ZCl+CVTIx46cUU2L5agNrlEkzKztpK9rDHW+qCQVeRB5X2W08cIxv/ncN92if34lQYsA=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 17:12:17,981 [52] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 17:12:17,998 [52] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 17:12:18,076 [52] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "18027"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_james_1123445@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "HasOptedOutOfEmail",
+    "Value": "False"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "ChatBot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 17:12:18,501 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: 18027
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_james_1123445@gmail.com
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - HasOptedOutOfEmail: False
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: ChatBot
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 17:12:18,502 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 17:12:18,503 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 17:12:18,503 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 17:12:18,511 [57] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"atgCQru2w3zEnuE72HZOrpxSgDF0kt6/UNO/XZed/AmTrjtk0ta2F4o1oziwEKripKxlB26FDBmvv6skEVpvlNolQhWzCR24G3k0F1N3ZWA=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 17:14:00,343 [74] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 17:14:00,343 [74] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 17:14:00,343 [74] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "LocationID",
+    "Value": "C558"
+  },
+  {
+    "Key": "EmailAddress",
+    "Value": "test_james_1123445@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "HasOptedOutOfEmail",
+    "Value": "False"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "ChatBot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LocationID: C558
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_james_1123445@gmail.com
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - HasOptedOutOfEmail: False
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: ChatBot
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 17:14:00,775 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"C/XWDxQzk7CAgy6PL47zyiidTMqRAz2A4QEieNcUP0BMb/MwnzJWN/w+QEh9H/Xf/UcdYKIxxVZIzNhO+PgQ6pTtwgnxBndi6LIjqlkB9m0=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 17:14:39,729 [73] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 17:14:39,729 [73] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 17:14:39,729 [73] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "EmailAddress",
+    "Value": "test_james_1123445@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "HasOptedOutOfEmail",
+    "Value": "False"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "ChatBot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_james_1123445@gmail.com
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - HasOptedOutOfEmail: False
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: ChatBot
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 17:14:40,067 [84] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"7/9PC78M11oA1KJ2M50JoYldXxKMTN5K335WShH2B9DRtlDzHNz8w8E/abGFtbYVfDZ+cs6KMdYj/Q5sC+rUufg7QtjQ+S9LSb3ses3FovE=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 17:15:19,089 [65] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 17:15:19,090 [65] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 17:15:19,090 [65] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "EmailAddress",
+    "Value": "test_james_1123445@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "HasOptedOutOfEmail",
+    "Value": "False"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "ChatBot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_james_1123445@gmail.com
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - HasOptedOutOfEmail: False
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: ChatBot
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 17:15:19,771 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 17:15:19,772 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 17:15:19,772 [85] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"Dn2KvOBbzPIcFGmsLhe6ssTRfBAEt5LlJw9kPe4DoAnWKcn+uFeAzGrCCJUkz5XVvEIIKF4XJ1OFdE9yUrTxltJA8hgDEFgAn9I+oc5x108=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 17:16:12,651 [76] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 17:16:12,669 [76] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 17:16:12,750 [76] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "EmailAddress",
+    "Value": "test_james_1123445@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "HasOptedOutOfEmail",
+    "Value": "False"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "ChatBot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_james_1123445@gmail.com
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - HasOptedOutOfEmail: False
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: ChatBot
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 17:16:13,192 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 17:16:13,193 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 17:16:13,193 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 17:16:13,200 [93] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"tSaQRVbQrRvc8cWnGVrZlGEBc8gaWA6+NWTv6BD5eryid3iI/QKKFQGZzhU92da4K3/ln1n5lSyHWfr8uTIC8a2BF5DGv92IgyhafhaehCQ=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+2018-11-28 17:19:12,541 [51] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Initiated Post to http://lmsapi.test.ccaglobal.com/LeadPost.aspx
+2018-11-28 17:19:12,558 [51] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Request Object - Type System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]:
+2018-11-28 17:19:12,637 [51] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - [
+  {
+    "Key": "EmailAddress",
+    "Value": "test_james_1123445@gmail.com"
+  },
+  {
+    "Key": "City",
+    "Value": "Atlanta"
+  },
+  {
+    "Key": "FirstName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "HasOptedOutOfEmail",
+    "Value": "False"
+  },
+  {
+    "Key": "LastName",
+    "Value": "TestJames"
+  },
+  {
+    "Key": "PostalCode",
+    "Value": "11111"
+  },
+  {
+    "Key": "RequestType",
+    "Value": "ChatBot"
+  },
+  {
+    "Key": "LeadSource",
+    "Value": "CarpetOne"
+  },
+  {
+    "Key": "Level",
+    "Value": "NationalOrganic"
+  },
+  {
+    "Key": "InStoreWithinLast30Days",
+    "Value": "True"
+  },
+  {
+    "Key": "PurchaseTimeFrame",
+    "Value": "Three to Six Months"
+  },
+  {
+    "Key": "LeadSourceUrl",
+    "Value": "www.carpetone.com"
+  },
+  {
+    "Key": "LeadSourceBrand",
+    "Value": "CPTONE"
+  }
+]
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Parameters List:
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - EmailAddress: test_james_1123445@gmail.com
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - City: Atlanta
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - FirstName: TestJames
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - HasOptedOutOfEmail: False
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LastName: TestJames
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PostalCode: 11111
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - RequestType: ChatBot
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSource: CarpetOne
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Level: NationalOrganic
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - InStoreWithinLast30Days: True
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - PurchaseTimeFrame: Three to Six Months
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceUrl: www.carpetone.com
+2018-11-28 17:19:13,058 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - LeadSourceBrand: CPTONE
+2018-11-28 17:19:13,059 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Actual Response:
+2018-11-28 17:19:13,059 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - Http Status Code: OK (200)
+2018-11-28 17:19:13,066 [89] INFO  CCA.Chatbot.API.Common.Logging.CCAApiLogger - "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\r\n</title></head>\r\n<body>\r\n    <form method=\"post\" action=\"./LeadPost.aspx\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"NvwTMp/OcFoSm8mSQEoyGEt+UNye9P1u/k/7LFd8YfBeraxgdY/cCTh4xbDRigFxxctaQdEhNNQSYhgwOHaaEel0dOQbo/IGzIKCbD3GF/Q=\" />\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"8BA948C9\" />\r\n    <div>\r\n    \r\n    </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"

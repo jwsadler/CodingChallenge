@@ -1,0 +1,50 @@
+﻿@using CodingChallenge.API.BusinessLogic.Enums
+@using CodingChallenge.API.Common.Helpers
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<section>
+    <div class="content">
+        <form id="searchForm">
+            <div>
+                <div class="">
+                    <select id="type">
+                        @foreach (var enumValue in Enum.GetValues(typeof(PixabayImageTypes)))
+                        {
+                            @:<option value="@enumValue.GetFirstValueFromMetaDataAttribute(CCAConstants.API_VALUE_ATTRIBUTE)">@enumValue.ToString()</option>
+                        }
+                        
+                    </select>
+                    
+                    <select id="category">
+                        @foreach (var enumValue in Enum.GetValues(typeof(PixabayCategoryTypes)))
+                        {
+                            @:<option value="@enumValue.GetFirstValueFromMetaDataAttribute(CCAConstants.API_VALUE_ATTRIBUTE)">@enumValue.ToString()</option>
+                        }
+                        
+                    </select>
+                    @Html.TextBox("search", "", new {type = "text", placeholder = "Search", style = "min-width:300px;"}) <button class="btn btn-primary btn-search" role="button">Search</button>
+                </div>
+            </div>
+        </form>
+        <div style="margin-bottom: 20px;"></div>
+        
+        <div class="slider-box hidediv">
+            <div class="slick-location">
+
+            </div>
+        </div>
+
+        <div class='spinner-border' role='status' ><span class='sr-only'>Loading...</span></div>
+    </div>
+    
+    <h1 class="hidediv">Total Word Count:<span class="wordcount"></span></h1>
+    
+    <div class="hidediv">
+        <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+   <div class="hidediv definitions"></div>
+</section>
