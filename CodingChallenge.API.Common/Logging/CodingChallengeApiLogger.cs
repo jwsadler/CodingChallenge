@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace CodingChallenge.API.Common.Logging
 {
-    public class CCAApiLogger : ICCAApiLogger
+    public class CodingChallengeApiLogger : ICodingChallengeApiLogger
     {
         private const string REMOVE = @"\";
 
@@ -22,7 +22,7 @@ namespace CodingChallenge.API.Common.Logging
 
         public ILoggingService Log() => _log;
 
-        public CCAApiLogger(ILoggingService log)
+        public CodingChallengeApiLogger(ILoggingService log)
         {
             _log = log;
         }

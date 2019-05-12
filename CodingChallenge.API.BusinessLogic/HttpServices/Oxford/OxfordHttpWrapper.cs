@@ -13,12 +13,12 @@ namespace CodingChallenge.API.BusinessLogic.HttpServices.Oxford
     public class OxfordHttpWrapper : IOxfordHttpWrapper
     {
         private static readonly HttpClient client;
-        private static readonly ICCAApiLogger cca_api_logger;
+        private static readonly ICodingChallengeApiLogger coding_challenge_api_logger;
         
         static OxfordHttpWrapper()
         {
             var apiConfigHelper = ContainerHelper.Container.Resolve<IAPIConfigurationHelper>();
-            cca_api_logger = ContainerHelper.Container.Resolve<ICCAApiLogger>();
+            coding_challenge_api_logger = ContainerHelper.Container.Resolve<ICodingChallengeApiLogger>();
 
             var url = apiConfigHelper?.APIConfiguration.OxfordDictionaryAPI.BaseUrl;
             VerboseLogging = apiConfigHelper?.APIConfiguration.APILogging.VerboseLogging ?? false;
@@ -38,9 +38,9 @@ namespace CodingChallenge.API.BusinessLogic.HttpServices.Oxford
 
         public Task<HttpResponseMessage> GetOxfordResponse(string parameters)
         {
-            cca_api_logger.InitialApiLog(
+            coding_challenge_api_logger.InitialApiLog(
                 $"{BaseAddress.OriginalString}{parameters}",
-                CCAApiLogger.CallType.Get);
+                CodingChallengeApiLogger.CallType.Get);
 
             return client.GetAsync(parameters);
         }

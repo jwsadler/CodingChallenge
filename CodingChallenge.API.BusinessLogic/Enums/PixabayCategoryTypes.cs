@@ -5,67 +5,67 @@ namespace CodingChallenge.API.BusinessLogic.Enums
 {
     public enum PixabayCategoryTypes
     {
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "all")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "all")]
         All,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "fashion")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "fashion")]
         Fashion,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "nature")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "nature")]
         Nature,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "backgrounds")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "backgrounds")]
         Backgrounds,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "science")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "science")]
         Science,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "education")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "education")]
         Education,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "people")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "people")]
         People,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "feelings")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "feelings")]
         Feelings,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "religion")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "religion")]
         Religion,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "health")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "health")]
         Health,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "places")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "places")]
         Places,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "animals")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "animals")]
         Animals,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "industry")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "industry")]
         Industry,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "food")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "food")]
         Food,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "computer")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "computer")]
         Computer,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "sports")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "sports")]
         Sports,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "transportation")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "transportation")]
         Transportation,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "travel")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "travel")]
         Travel,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "buildings")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "buildings")]
         Buildings,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "business")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "business")]
         Business,
 
-        [Metadata(CCAConstants.API_VALUE_ATTRIBUTE, "music")]
+        [Metadata(CodingChallengeConstants.API_VALUE_ATTRIBUTE, "music")]
         Music
     }
 }

@@ -19,27 +19,24 @@ namespace CodingChallenge.API.Common.Extensions
         public static Task<HttpResponseMessage> DeleteAsJsonAsync<T>(this HttpClient httpClient, string requestUri,
             T data)
             => httpClient.SendAsync(new HttpRequestMessage(HttpMethod.Delete, requestUri)
-            { Content = new StringContent(JsonConvert.SerializeObject(data), Encoding.UTF8, CCAConstants.APPLICATION_JSON) });
+            { Content = new StringContent(JsonConvert.SerializeObject(data), Encoding.UTF8, CodingChallengeConstants.APPLICATION_JSON) });
 
-        public static T DeserializeHttpMessage<T>(this HttpResponseMessage response, bool testing = false, bool verboseLogging = false)
+        public static T DeserializeHttpMessage<T>(this HttpResponseMessage response, ICodingChallengeApiLogger codingChallengeApiLogger, bool testing = false, bool verboseLogging = false)
             where T : class
         {
 
-            var ccaAPILogger = ContainerHelper.Container.Resolve<ICCAApiLogger>();
-
-
-            try
+          try
             {
                 T result;
                 if (verboseLogging)
                 {
                     if (response.StatusCode == HttpStatusCode.InternalServerError)
                     {
-                        ccaAPILogger.Log500Response();
+                        codingChallengeApiLogger.Log500Response();
                     }
 
                     dynamic actualResponseObject;
-
+                    
                     if (testing)
                     {
                         actualResponseObject = JsonConvert.DeserializeObject<dynamic>(
@@ -50,13 +47,13 @@ namespace CodingChallenge.API.Common.Extensions
                         actualResponseObject = response.Content.ReadAsAsync<dynamic>().Result;
                     }
 
-                    ccaAPILogger.LogActualResponse(actualResponseObject, response.StatusCode, true);
+                    codingChallengeApiLogger.LogActualResponse(actualResponseObject, response.StatusCode, true);
 
                     var objString = JsonConvert.SerializeObject(actualResponseObject);
 
                     result = JsonConvert.DeserializeObject<T>(objString);
 
-                    ccaAPILogger.LogExpectedResponse(result, true);
+                    codingChallengeApiLogger.LogExpectedResponse(result, true);
                 }
                 else
                 {
@@ -71,13 +68,16 @@ namespace CodingChallenge.API.Common.Extensions
                     }
                 }
 
+                if (result is IStatus statusObject)
+                {
+                    statusObject.StatusCode = response.StatusCode;
+                }
                
-
                 return result;
             }
             catch (Exception ex)
             {
-                ccaAPILogger.Log().Error(THERE_WAS_AN_ISSUE_LOGGING_THIS_MESSAGE + ex.GetInnerMostException().Message);
+                codingChallengeApiLogger.Log().Error(THERE_WAS_AN_ISSUE_LOGGING_THIS_MESSAGE + ex.GetInnerMostException().Message);
                 return null;
             }
         }
@@ -85,7 +85,7 @@ namespace CodingChallenge.API.Common.Extensions
         public static void LogHttpMessage(this HttpResponseMessage response, bool testing = false, bool verboseLogging = false)
 
         {
-            var ccaAPILogger = ContainerHelper.Container.Resolve<ICCAApiLogger>();
+            var ccaAPILogger = ContainerHelper.Container.Resolve<ICodingChallengeApiLogger>();
             try
             {
                 if (verboseLogging)

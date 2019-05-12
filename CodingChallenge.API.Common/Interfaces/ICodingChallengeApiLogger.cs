@@ -4,11 +4,11 @@ using CodingChallenge.API.Common.Logging;
 
 namespace CodingChallenge.API.Common.Interfaces
 {
-    public interface ICCAApiLogger : IHelper
+    public interface ICodingChallengeApiLogger : IHelper
     {
         ILoggingService Log();
         string SerializeObject<T>(T obj) where T : class;
-        void InitialApiLog(string url, CCAApiLogger.CallType type);
+        void InitialApiLog(string url, CodingChallengeApiLogger.CallType type);
         void LogRequestObject<T>(T obj, bool verboseLogging = false) where T : class;
         void LogRequestUrlParms(Dictionary<string, string> parms, bool verboseLogging = false);
         void LogActualResponse(dynamic obj, HttpStatusCode statusCode, bool verboseLogging = false);

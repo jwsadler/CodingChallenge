@@ -8,6 +8,6 @@ namespace CodingChallenge.API.BusinessLogic.Helpers
     public class APIConfigurationHelper : IAPIConfigurationHelper
     {
         public APIConfigurationSection APIConfiguration =>
-            (APIConfigurationSection) ConfigurationManager.GetSection(CCAConstants.Configuration.CONFIGURATION_ROOT);
+            (APIConfigurationSection) ConfigurationManager.GetSection(CodingChallengeConstants.Configuration.CONFIGURATION_ROOT);
     }
 }

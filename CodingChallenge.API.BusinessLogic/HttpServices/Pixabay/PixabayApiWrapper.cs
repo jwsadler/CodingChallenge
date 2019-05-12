@@ -24,14 +24,14 @@ namespace CodingChallenge.API.BusinessLogic.HttpServices.Pixabay
         private const string CATEGORY_REPLACE = "{category}";
         private const string TYPE_REPLACE = "{type}";
         private readonly IAPIConfigurationHelper _apiConfigurationHelper;
-        private readonly ICCAApiLogger _ccaAPILogger;
+        private readonly ICodingChallengeApiLogger _codingChallengeApiLogger;
         private readonly IPixabayHttpWrapper _pixabayHttpWrapper;
 
-        public PixabayApiWrapper(IPixabayHttpWrapper pixabayHttpWrapper, IAPIConfigurationHelper apiConfigurationHelper, ICCAApiLogger ccaAPILogger)
+        public PixabayApiWrapper(IPixabayHttpWrapper pixabayHttpWrapper, IAPIConfigurationHelper apiConfigurationHelper, ICodingChallengeApiLogger codingChallengeApiLogger)
         {
             _pixabayHttpWrapper = pixabayHttpWrapper;
             _apiConfigurationHelper = apiConfigurationHelper;
-            _ccaAPILogger = ccaAPILogger;
+            _codingChallengeApiLogger = codingChallengeApiLogger;
         }
 
         public HttpStatusCode HttpStatusCode { get; set; }
@@ -46,7 +46,7 @@ namespace CodingChallenge.API.BusinessLogic.HttpServices.Pixabay
 
             VerboseLogging = _apiConfigurationHelper.APIConfiguration.APILogging.VerboseLogging;
             _pixabayHttpWrapper.DefaultRequestHeaders.Clear();
-            _pixabayHttpWrapper.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(CCAConstants.APPLICATION_JSON));
+            _pixabayHttpWrapper.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(CodingChallengeConstants.APPLICATION_JSON));
         }
 
         public bool VerboseLogging { get; set; }
@@ -72,16 +72,16 @@ namespace CodingChallenge.API.BusinessLogic.HttpServices.Pixabay
 
                 HttpStatusCode = response.StatusCode;
                 if (!response.IsSuccessStatusCode)
-                    _ccaAPILogger.Log().Error(string.Format(SERVICE_RETURNED_THE_FOLLOWING_STATUS,
+                    _codingChallengeApiLogger.Log().Error(string.Format(SERVICE_RETURNED_THE_FOLLOWING_STATUS,
                         response.StatusCode));
 
-                var result = response.DeserializeHttpMessage<PixabayResponseModel>(testing, VerboseLogging);
+                var result = response.DeserializeHttpMessage<PixabayResponseModel>(_codingChallengeApiLogger,testing, VerboseLogging);
 
                 return result;
             }
             catch (Exception ex)
             {
-                _ccaAPILogger.Log().Error(ex.GetInnerMostException().Message, ex);
+                _codingChallengeApiLogger.Log().Error(ex.GetInnerMostException().Message, ex);
                 throw;
             }
         }

@@ -1,6 +1,6 @@
 ﻿namespace CodingChallenge.API.Common.Helpers
 {
-    public static class CCAConstants
+    public static class CodingChallengeConstants
     {
         public const string APPLICATION_JSON = "application/json";
 

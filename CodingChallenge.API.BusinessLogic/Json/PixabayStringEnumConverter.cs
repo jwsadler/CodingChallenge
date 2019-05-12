@@ -17,7 +17,7 @@ namespace CodingChallenge.API.BusinessLogic.Json
 
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
-            var metadataValue = value.GetFirstValueFromMetaDataAttribute(CCAConstants.API_VALUE_ATTRIBUTE);
+            var metadataValue = value.GetFirstValueFromMetaDataAttribute(CodingChallengeConstants.API_VALUE_ATTRIBUTE);
 
             writer.WriteValue(!string.IsNullOrEmpty(metadataValue) ? metadataValue : ((string) value).ToLower());
         }

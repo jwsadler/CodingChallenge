@@ -22,14 +22,14 @@ namespace CodingChallenge.API.BusinessLogic.HttpServices.Oxford
         private const string APP_KEY = "app_key";
 
         private readonly IAPIConfigurationHelper _apiConfigurationHelper;
-        private readonly ICCAApiLogger _ccaAPILogger;
+        private readonly ICodingChallengeApiLogger _codingChallengeApiLogger;
         private readonly IOxfordHttpWrapper _oxfordHttpWrapper;
 
-        public OxfordApiWrapper(IOxfordHttpWrapper oxfordHttpWrapper, IAPIConfigurationHelper apiConfigurationHelper, ICCAApiLogger ccaAPILogger)
+        public OxfordApiWrapper(IOxfordHttpWrapper oxfordHttpWrapper, IAPIConfigurationHelper apiConfigurationHelper, ICodingChallengeApiLogger codingChallengeApiLogger)
         {
             _oxfordHttpWrapper = oxfordHttpWrapper;
             _apiConfigurationHelper = apiConfigurationHelper;
-            _ccaAPILogger = ccaAPILogger;
+            _codingChallengeApiLogger = codingChallengeApiLogger;
         }
 
         public HttpStatusCode HttpStatusCode { get; set; }
@@ -46,7 +46,7 @@ namespace CodingChallenge.API.BusinessLogic.HttpServices.Oxford
 
             _oxfordHttpWrapper.DefaultRequestHeaders.Clear();
 
-           _oxfordHttpWrapper.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(CCAConstants.APPLICATION_JSON));
+           _oxfordHttpWrapper.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(CodingChallengeConstants.APPLICATION_JSON));
 
             _oxfordHttpWrapper.DefaultRequestHeaders.Add(APP_ID, _apiConfigurationHelper.APIConfiguration.OxfordDictionaryAPI.AppId);
             _oxfordHttpWrapper.DefaultRequestHeaders.Add(APP_KEY, _apiConfigurationHelper.APIConfiguration.OxfordDictionaryAPI.APIKey);
@@ -71,16 +71,16 @@ namespace CodingChallenge.API.BusinessLogic.HttpServices.Oxford
 
                 HttpStatusCode = response.StatusCode;
                 if (!response.IsSuccessStatusCode)
-                    _ccaAPILogger.Log().Error(string.Format(SERVICE_RETURNED_THE_FOLLOWING_STATUS,
+                    _codingChallengeApiLogger.Log().Error(string.Format(SERVICE_RETURNED_THE_FOLLOWING_STATUS,
                         response.StatusCode));
 
-                var result = response.DeserializeHttpMessage<OxfordResponseModel>(testing, VerboseLogging);
+                var result = response.DeserializeHttpMessage<OxfordResponseModel>(_codingChallengeApiLogger, testing, VerboseLogging);
 
                 return result;
             }
             catch (Exception ex)
             {
-                _ccaAPILogger.Log().Error(ex.GetInnerMostException().Message, ex);
+                _codingChallengeApiLogger.Log().Error(ex.GetInnerMostException().Message, ex);
                 throw;
             }
         }

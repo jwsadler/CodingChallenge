@@ -11,7 +11,7 @@ namespace CodingChallenge.API.BusinessLogic.Services
         protected override async Task<HttpResponseMessage> SendAsync(
             HttpRequestMessage request, CancellationToken cancellationToken)
         {
-            var ccaAPILogger = ContainerHelper.Container.Resolve<ICCAApiLogger>();
+            var ccaAPILogger = ContainerHelper.Container.Resolve<ICodingChallengeApiLogger>();
 
             // log request body
             var requestBody = await request.Content.ReadAsStringAsync();

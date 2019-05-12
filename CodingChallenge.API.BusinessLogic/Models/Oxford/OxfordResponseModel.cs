@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using CodingChallenge.API.Common.Interfaces;
 using Newtonsoft.Json;
 
 namespace CodingChallenge.API.BusinessLogic.Models.Oxford
 {
-    public class OxfordResponseModel
+    public class OxfordResponseModel: IStatus
     {
         [JsonProperty(PropertyName = "id")] public string Id { get; set; }
 
@@ -52,6 +54,7 @@ namespace CodingChallenge.API.BusinessLogic.Models.Oxford
             TotalWords.Count;
 
         public List<WordCount> WordCounts => TotalWords.GroupBy(p => p).Select(x => new WordCount {Count = x.Count(), Word = x.Key}).OrderBy(p => p.Count).ToList();
+        public HttpStatusCode StatusCode { get; set; }
     }
 
     public class OxfordMetaData
