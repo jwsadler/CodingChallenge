@@ -1,4 +1,18 @@
 ﻿var mychart;
+
+function getURLParameter(sParam) {
+    var sPageUrl = decodeURIComponent(window.location.search.substring(1)),
+        sUrlVariables = sPageUrl.split('&'), sParameterName, i;
+
+    for (i = 0; i < sUrlVariables.length; i++) {
+        sParameterName = sUrlVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+    return null;
+}
 function getApiResults() {
 
     if ($("#search").val() == "") return;
@@ -12,6 +26,14 @@ function getApiResults() {
             };
 
         var url = $("#APIUrl").val() + "/api/post/getdata";
+
+        var newurl = window.location.protocol +
+            "//" +
+            window.location.host +
+            window.location.pathname +
+            "?query=" +
+            encodeURIComponent($("#search").val()) + "&category=" + $("#category").val() + "&type=" + $("#type").val();
+        window.history.pushState({ path: newurl }, '', newurl);
 
         $.ajax({
             type: 'POST',
@@ -154,4 +176,22 @@ $(document).ready(function () {
         speed: 300
 
     });
+
+    var query = getURLParameter("query");
+    var category = getURLParameter("category");
+    var type = getURLParameter("type");
+
+    if (type != null && type != "") {
+        $("#type").val(type);
+    }
+
+    if (category != null && category != "") {
+        $("#category").val(category);
+    }
+
+    if (query != null && query != "") {
+        $("#search").val(query);
+        getApiResults();
+    }
+
 });
