@@ -10,11 +10,12 @@ function getApiResults() {
                 "category":$("#category").val(),
                 "query": $("#search").val()
             };
-        
+
+        var url = $("#APIUrl").val() + "/api/post/getdata";
 
         $.ajax({
             type: 'POST',
-            url: 'http://codeingchallenge/api/post/getdata',
+            url: url,
             contentType: 'application/json; charset=utf-8',
             data: JSON.stringify(formFieldsFormatted),
             headers: { "cache-control": "no-cache" },

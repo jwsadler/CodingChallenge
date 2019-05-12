@@ -1,11 +1,11 @@
 using System.Web.Http;
 using WebActivatorEx;
-using CCA.Chatbot.API;
+using CodingChallenge.API;
 using Swashbuckle.Application;
 
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
-namespace CCA.Chatbot.API
+namespace CodingChallenge.API
 {
     public class SwaggerConfig
     {
@@ -32,7 +32,7 @@ namespace CCA.Chatbot.API
                         // hold additional metadata for an API. Version and title are required but you can also provide
                         // additional fields by chaining methods off SingleApiVersion.
                         //
-                        c.SingleApiVersion("v1", "CCA.Chatbot.API");
+                        c.SingleApiVersion("v1", "CodingChallenge.API");
 
                         // If you want the output Swagger docs to be indented properly, enable the "PrettyPrint" option.
                         //

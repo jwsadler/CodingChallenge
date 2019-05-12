@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CCA.ChatBot.API.BusinessLogic.Tests")]
+[assembly: AssemblyTitle("CodingChallenge.API.BusinessLogic.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CCA.ChatBot.API.BusinessLogic.Tests")]
+[assembly: AssemblyProduct("CodingChallenge.API.BusinessLogic.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

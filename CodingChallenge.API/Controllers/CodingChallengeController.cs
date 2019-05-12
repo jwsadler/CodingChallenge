@@ -19,7 +19,6 @@ namespace CodingChallenge.API.Controllers
 {
     public class CodingChallengeController : BaseApiController
     {
-        private readonly IAPIConfigurationHelper _apiConfigurationHelper;
         private readonly IPixabayApiService _pixabayApiService;
         private readonly ILoggingService _loggingService;
         private readonly IEnumerable<IValidationService> _validationServices;
@@ -30,7 +29,6 @@ namespace CodingChallenge.API.Controllers
             _loggingService = loggingService;
             _pixabayApiService = pixabayApiService;
             _validationServices = validationServices;
-            _apiConfigurationHelper = apiConfigurationHelper;
             _oxfordApiService = oxfordApiService;
         }
 

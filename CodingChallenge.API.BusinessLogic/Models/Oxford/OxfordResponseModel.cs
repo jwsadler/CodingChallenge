@@ -53,7 +53,8 @@ namespace CodingChallenge.API.BusinessLogic.Models.Oxford
         public int TotalWordCount =>
             TotalWords.Count;
 
-        public List<WordCount> WordCounts => TotalWords.GroupBy(p => p).Select(x => new WordCount {Count = x.Count(), Word = x.Key}).OrderBy(p => p.Count).ToList();
+        public List<WordCount> WordCounts =>
+            TotalWords.GroupBy(p => p).Select(x => new WordCount {Count = x.Count(), Word = x.Key}).OrderByDescending(p => p.Count).Take(10).ToList();
         public HttpStatusCode StatusCode { get; set; }
     }
 
