@@ -170,9 +170,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Areas\CodingChallenge\Views\web.config" />
     <Content Include="Areas\CodingChallenge\Views\_ViewStart.cshtml" />
     <Content Include="Areas\CodingChallenge\Views\Shared\_Layout.cshtml" />
